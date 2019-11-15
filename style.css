@@ -1,0 +1,24 @@
+.container
+{display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+h1
+{margin: 3px;
+  border-bottom: 4px solid red; 
+  width: 350px;
+  border-right: 4px solid red;
+  text-align:center; 
+box-shadow: 4px 3px  5px red;
+ }
+p
+{ text-shadow: 3px 3px 3px red; }
+img
+{ width:300px;
+height: 300px;
+transition: all 1s;
+margin: 1px;
+ }
+ img:hover
+ { transform: scale(1.1); }
